@@ -447,7 +447,7 @@ const C = {
  cause:`De más a menos probable: no aceptó compartir historial al conectar (2593109). Ya se pidió una vez en esa conexión (2593107, Meta acepta uno). La app estaba cerrada o en segundo plano. La reconexión vino de un cambio de teléfono. No hubo chats en el periodo. Demora de Meta.`,
  confirm:`En el teléfono llega un WhatsApp de Facebook Business: "Connect to the Business Platform". Si no tocó Connect, el historial no se comparte. Pedirle que lo toque (por confirmar si destraba).`,
  steps:[`Esperar el cierre de la ventana.`,`Si hace falta el historial, un solo ciclo: desconectar desde la app (WA-P02), conectar con la app abierta y en primer plano, tocar Confirmar/compartir historial y pedirlo enseguida.`],
- wait:`Meta da 24 h para pedir el historial`,dont:[`Varios ciclos seguidos para "forzar" el historial: riesgo de bloqueo.`],esc:`No`,src:"experiencia AP + doc Meta",rel:["WA-P02"]},
+ wait:`Meta da 24 h para pedir el historial`,dont:[`Varios ciclos seguidos para "forzar" el historial: riesgo de bloqueo.`],esc:`Si el historial no llega: ticket a Meta (CMP-P02)`,src:"experiencia AP + doc Meta",rel:["WA-P02","CMP-P02"]},
 "WA-18":{ch:"whatsapp",sev:"warn",f:"whatsapp/WA-18-mensaje-suelto-no-llego.md",t:"Un mensaje suelto nunca llegó",
  sym:`Un paciente dice que escribió y el agente no respondió. El resto del tráfico llega normal.`,
  confirm:`No hay "Webhook event received" para ese mensaje y el volumen del número está parejo.`,
